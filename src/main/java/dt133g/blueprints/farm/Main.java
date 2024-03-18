@@ -1,8 +1,8 @@
-package dt133g.farm;
+package dt133g.blueprints.farm;
 
-import dt133g.farm.animals.Chicken;
-import dt133g.farm.animals.Cow;
-import dt133g.farm.animals.Pig;
+import dt133g.blueprints.farm.animals.Chicken;
+import dt133g.blueprints.farm.animals.Cow;
+import dt133g.blueprints.farm.animals.Pig;
 
 public class Main {
 

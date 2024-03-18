@@ -1,4 +1,4 @@
-package dt133g.farm.support;
+package dt133g.blueprints.farm.support;
 
 public interface AnimalSound {
     final String pigSound = "Oink";

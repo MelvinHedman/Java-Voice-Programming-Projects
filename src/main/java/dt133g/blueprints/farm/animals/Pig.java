@@ -1,7 +1,7 @@
-package dt133g.farm.animals;
+package dt133g.blueprints.farm.animals;
 
-import dt133g.farm.support.AnimalSound;
-import dt133g.farm.support.AnimalType;
+import dt133g.blueprints.farm.support.AnimalType;
+import dt133g.blueprints.farm.support.AnimalSound;
 
 public class Pig extends Animal {
     public Pig() {

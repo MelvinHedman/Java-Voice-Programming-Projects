@@ -1,6 +1,6 @@
-package dt133g.farm.animals;
+package dt133g.blueprints.farm.animals;
 
-import dt133g.farm.support.AnimalType;
+import dt133g.blueprints.farm.support.AnimalType;
 
 public abstract class Animal {
     private final String sound;

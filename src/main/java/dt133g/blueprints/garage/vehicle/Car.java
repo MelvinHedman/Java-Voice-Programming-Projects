@@ -1,15 +1,14 @@
-package dt133g.garage.vehicle;
-
-import dt133g.garage.parking.Parkingspace;
+package dt133g.blueprints.garage.vehicle;
 
 public class Car {
 
-    private final String owner;
-    private final String licensePlate;
+    public final String owner;
+    public  final String licensePlate;
     public Car(String owner, String licensePlate) {
         this.owner = owner;
         this.licensePlate = licensePlate;
     }
+
 
     @Override
     public String toString() {

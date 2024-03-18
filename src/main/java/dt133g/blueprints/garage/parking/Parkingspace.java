@@ -1,6 +1,6 @@
-package dt133g.garage.parking;
+package dt133g.blueprints.garage.parking;
 
-import dt133g.garage.vehicle.Car;
+import dt133g.blueprints.garage.vehicle.Car;
 
 public class Parkingspace {
 
@@ -8,8 +8,12 @@ public class Parkingspace {
 
     public Parkingspace(){}
 
-    public void parkCar(Car car){
+    public Boolean parkCar(Car car) {
+        if(this.car != null){
+            return false;
+        }
         this.car = car;
+        return true;
     }
 
     public void leaveSpace(){
