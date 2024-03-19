@@ -1,4 +1,4 @@
-package dt133g.voicesolutions.farm;
+package testcases;
 
 import blueprints.farm.animals.Animal;
 import blueprints.farm.animals.Chicken;

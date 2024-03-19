@@ -1,4 +1,4 @@
-package dt133g.voicesolutions.garage;
+package testcases;
 import blueprints.garage.support.PHRASES;
 import blueprints.garage.parking.Garage;
 import blueprints.garage.parking.Parkingspace;
