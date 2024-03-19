@@ -1,6 +1,7 @@
 package dt133g.blueprints.farm.animals;
 
 import dt133g.blueprints.farm.support.AnimalType;
+import dt133g.blueprints.farm.support.PHRASES;
 
 public abstract class Animal {
     private final String sound;
@@ -24,6 +25,6 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return String.format("%s says %s", animalType, sound);
+        return String.format(PHRASES.animalSays, animalType, sound);
     }
 }

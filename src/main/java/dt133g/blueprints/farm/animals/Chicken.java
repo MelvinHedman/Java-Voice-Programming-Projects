@@ -2,6 +2,7 @@ package dt133g.blueprints.farm.animals;
 
 import dt133g.blueprints.farm.support.AnimalSound;
 import dt133g.blueprints.farm.support.AnimalType;
+import dt133g.blueprints.farm.support.PHRASES;
 
 public class Chicken extends Animal {
     public Chicken() {
@@ -15,11 +16,11 @@ public class Chicken extends Animal {
 
     @Override
     public void eat() {
-        System.out.println(String.format("%s eats", getAnimalType()));
+        System.out.println(String.format(PHRASES.animalEats, getAnimalType()));
     }
 
     @Override
     public void sleep() {
-        System.out.println(String.format("%s sleeps", getAnimalType()));
+        System.out.println(String.format(PHRASES.animalSleeps, getAnimalType()));
     }
 }

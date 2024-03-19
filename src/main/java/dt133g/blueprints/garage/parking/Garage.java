@@ -13,15 +13,14 @@ public class Garage {
         }
     }
 
-    public void parkCar(Car car) throws Exception {
+    public Boolean parkCar(Car car) {
         for(int i = 0; i <= parkingSpaces.size()-1; i++){
             if(parkingSpaces.get(i).parkCar(car)){
                 System.out.println(String.format("%s parked car %s at space: %d", car.owner, car.licensePlate, i+1));
-                return;
+                return true;
             }
         }
-
-        throw new Exception(String.format("There was no available parking spaces for %s", car.owner));
+        return false;
     }
 
 
