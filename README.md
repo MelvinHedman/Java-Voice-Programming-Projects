@@ -1,7 +1,7 @@
 # Java Voice Programming Projects
 This repository contains blueprints for the thesis: Java Programming By Voice. The blueprints 
 are meant to be replicated by using our adaptation and the standard version
-of the voice programming tool Serenade. To verify the replications, 
+of the voice programming tool Serenade. This repository will also include the replications. To verify the replications, 
 generated test cases will be used.  
 
 ##### src/main/java/blueprints 
