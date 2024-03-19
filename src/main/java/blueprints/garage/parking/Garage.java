@@ -29,6 +29,7 @@ public class Garage {
                 return true;
             }
         }
+        error();
         return false;
     }
 
