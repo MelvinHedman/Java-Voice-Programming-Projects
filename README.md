@@ -18,4 +18,4 @@ The packages will contain the replicated version of the corresponding
 project by using **our adaptation** of Serenade.
 
 ##### src/test/testcases
-Directory for the test cases. 
+Directory for test cases. 
