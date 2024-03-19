@@ -1,8 +1,8 @@
-package dt133g.blueprints.garage.parking;
+package blueprints.garage.parking;
 
-import dt133g.blueprints.garage.support.Helpers;
-import dt133g.blueprints.garage.support.PHRASES;
-import dt133g.blueprints.garage.vehicle.Car;
+import blueprints.garage.support.PHRASES;
+import blueprints.garage.vehicle.Car;
+import blueprints.garage.support.Helpers;
 
 import java.util.*;
 

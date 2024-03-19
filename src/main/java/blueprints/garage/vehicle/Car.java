@@ -1,6 +1,6 @@
-package dt133g.blueprints.garage.vehicle;
+package blueprints.garage.vehicle;
 
-import dt133g.blueprints.garage.support.PHRASES;
+import blueprints.garage.support.PHRASES;
 
 public class Car implements Vehicle{
 

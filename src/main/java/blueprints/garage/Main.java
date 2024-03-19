@@ -1,7 +1,7 @@
-package dt133g.blueprints.garage;
+package blueprints.garage;
 
-import dt133g.blueprints.garage.parking.Garage;
-import dt133g.blueprints.garage.vehicle.Car;
+import blueprints.garage.parking.Garage;
+import blueprints.garage.vehicle.Car;
 
 public class Main {
     public static void main(String[] args) {

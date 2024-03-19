@@ -1,8 +1,8 @@
-package dt133g.blueprints.farm.animals;
+package blueprints.farm.animals;
 
-import dt133g.blueprints.farm.support.AnimalSound;
-import dt133g.blueprints.farm.support.AnimalType;
-import dt133g.blueprints.farm.support.PHRASES;
+import blueprints.farm.support.AnimalSound;
+import blueprints.farm.support.AnimalType;
+import blueprints.farm.support.PHRASES;
 
 public class Chicken extends Animal {
     public Chicken() {

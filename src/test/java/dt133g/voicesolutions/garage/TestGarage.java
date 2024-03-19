@@ -1,8 +1,8 @@
 package dt133g.voicesolutions.garage;
-import dt133g.blueprints.garage.support.PHRASES;
-import dt133g.blueprints.garage.parking.Garage;
-import dt133g.blueprints.garage.parking.Parkingspace;
-import dt133g.blueprints.garage.vehicle.Car;
+import blueprints.garage.support.PHRASES;
+import blueprints.garage.parking.Garage;
+import blueprints.garage.parking.Parkingspace;
+import blueprints.garage.vehicle.Car;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

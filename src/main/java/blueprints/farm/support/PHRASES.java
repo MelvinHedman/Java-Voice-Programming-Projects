@@ -1,4 +1,4 @@
-package dt133g.blueprints.farm.support;
+package blueprints.farm.support;
 
 public interface PHRASES {
     final String animalEats = "%s eats";

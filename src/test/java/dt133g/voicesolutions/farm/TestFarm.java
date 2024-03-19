@@ -1,12 +1,12 @@
 package dt133g.voicesolutions.farm;
 
-import dt133g.blueprints.farm.animals.Animal;
-import dt133g.blueprints.farm.animals.Chicken;
-import dt133g.blueprints.farm.animals.Cow;
-import dt133g.blueprints.farm.animals.Pig;
-import dt133g.blueprints.farm.support.AnimalSound;
-import dt133g.blueprints.farm.support.AnimalType;
-import dt133g.blueprints.farm.support.PHRASES;
+import blueprints.farm.animals.Animal;
+import blueprints.farm.animals.Chicken;
+import blueprints.farm.animals.Cow;
+import blueprints.farm.animals.Pig;
+import blueprints.farm.support.AnimalSound;
+import blueprints.farm.support.AnimalType;
+import blueprints.farm.support.PHRASES;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

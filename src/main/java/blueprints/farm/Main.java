@@ -1,4 +1,4 @@
-package dt133g.blueprints.farm;
+package blueprints.farm;
 
 public class Main {
 

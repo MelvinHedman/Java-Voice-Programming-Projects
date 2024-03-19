@@ -1,4 +1,4 @@
-package dt133g.blueprints.garage.support;
+package blueprints.garage.support;
 
 public interface PHRASES {
     final String carStarting = "Car Starting";
