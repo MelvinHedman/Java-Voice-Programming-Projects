@@ -15,12 +15,4 @@ public class Car implements Vehicle{
         System.out.println(PHRASES.carStarting);
     }
 
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "owner='" + owner + '\'' +
-                ", licensePlate='" + licensePlate + '\'' +
-                '}';
-    }
 }

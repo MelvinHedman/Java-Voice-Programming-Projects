@@ -37,13 +37,7 @@ public class Garage {
     public static Boolean getGarageDoorOpen() {
         return garageDoorOpen;
     }
-
     public static void toggleGarageDoorOpen() {
         garageDoorOpen = !garageDoorOpen;
-    }
-
-    @Override
-    public String toString() {
-        return parkingSpaces.toString();
     }
 }

@@ -1,12 +1,12 @@
 package blueprints.farm.animals;
 
-import blueprints.farm.support.AnimalType;
+import blueprints.farm.support.ANIMALTYPE;
 import blueprints.farm.support.PHRASES;
 import blueprints.farm.support.AnimalSound;
 
 public class Pig extends Animal {
     public Pig() {
-        super(AnimalType.PIG, AnimalSound.pigSound);
+        super(ANIMALTYPE.PIG, AnimalSound.pigSound);
     }
     @Override
     public void makeSound() {

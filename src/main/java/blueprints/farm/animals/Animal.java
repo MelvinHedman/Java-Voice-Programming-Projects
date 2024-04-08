@@ -1,12 +1,12 @@
 package blueprints.farm.animals;
 
-import blueprints.farm.support.AnimalType;
+import blueprints.farm.support.ANIMALTYPE;
 import blueprints.farm.support.PHRASES;
 
 public abstract class Animal {
     private final String sound;
-    private final AnimalType animalType;
-    public Animal(AnimalType animalType, String sound){
+    private final ANIMALTYPE animalType;
+    public Animal(ANIMALTYPE animalType, String sound){
         this.animalType = animalType;
         this.sound = sound;
     }
@@ -19,7 +19,7 @@ public abstract class Animal {
         return sound;
     }
 
-    public AnimalType getAnimalType(){
+    public ANIMALTYPE getAnimalType(){
         return animalType;
     }
 

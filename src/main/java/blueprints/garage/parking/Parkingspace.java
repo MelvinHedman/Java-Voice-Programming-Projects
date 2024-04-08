@@ -24,10 +24,4 @@ public class Parkingspace {
         return car;
     }
 
-    @Override
-    public String toString() {
-        return "Parkingspace{" +
-                "car=" + car +
-                '}';
-    }
 }

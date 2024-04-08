@@ -11,5 +11,4 @@ public interface Vehicle {
     default void blowHorn(){
         System.out.println(PHRASES.carHorn);
     }
-
 }
