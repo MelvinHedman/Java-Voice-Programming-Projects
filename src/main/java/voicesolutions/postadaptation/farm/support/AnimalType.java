@@ -1,5 +1,5 @@
 package voicesolutions.postadaptation.farm.support;
 
-public enum AnimalType {
+public enum ANIMALTYPE {
     PIG, COW, CHICKEN
 }
