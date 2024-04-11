@@ -1,4 +1,4 @@
-package blueprints.farm.support;
+package voicesolutions.postadaptation.farm.support;
 
 public enum ANIMALTYPE {
     PIG, COW, CHICKEN
