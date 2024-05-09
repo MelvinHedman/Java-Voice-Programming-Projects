@@ -22,17 +22,6 @@ public class Garage {
             System.out.println(e.getMessage());
         }
     }
-    public Boolean parkCar(Car car) {
-        for(int i = 0; i <= parkingSpaces.size()-1; i++){
-            if(parkingSpaces.get(i).parkCar(car)){
-                System.out.println(String.format(PHRASES.carParked, car.owner, car.licensePlate, i+1));
-                return true;
-            }
-        }
-        error();
-        return false;
-    }
-
 
     public static Boolean getGarageDoorOpen() {
         return garageDoorOpen;
